@@ -2,7 +2,7 @@ name: Notify Zendesk Guide Update to Slack
 
 on:
   schedule:
-    - cron:  '*/60 * * * *'
+    - cron:  '0 10,12,14,16,18 * * *'
 
 jobs:
   zendesk_guide_slack_job:
